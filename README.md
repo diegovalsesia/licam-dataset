@@ -1,3 +1,5 @@
+![](logo.jpeg)
+
 # LICAM Low-Light Image Dataset with Smarphone Lidar Depth Maps
 
 This is the repository for the LICAM Low-Light Image Dataset. The Dataset is composed of photos acquired by an Apple iPhone 15 Pro and a Nikon Z30 DSLR camera. The photos have been taken under low light conditions so they are affected by motion blur and noise. Each photo has an associated depth map acquired by the iPhone Lidar sensor. Ground truth data not affected by motion blur are also available, acquired both by the iPhone and the DSLR camera.
@@ -28,4 +30,3 @@ Links for data download are provided under each directory.
 ## Acknowledgment
 
 The LICAM -“AI-powered LIDAR fusion for next-generation smartphone cameras (LICAM)” project is funded by European Union – Next Generation EU within the PRIN 2022 program (D.D. 104 - 02/02/2022 Ministero dell’Università e della Ricerca). The contents of this website reflect only the authors' views and opinions and the Ministry cannot be considered responsible for them.
-![](logo.jpeg)
