@@ -11,10 +11,10 @@ The Dataset is organized as follows:
     - depth : registered depth map acquired by the iPhone Lidar
     - sharp : registered ground truth image without motion blur acquired by iPhone
     - dslr : approximately registered image without motion blur acquired by DSLR
-- **resized** (100 MB) : scenes cropped and resampled from the full resolution to 512x512
+- **resized_scenes** (100 MB) : scenes cropped and resampled from the full resolution to 512x512
 - **raw_scenes** (6 GB): the original data for the 100 high-resolution scenes after registration
 
-The "images" data have been cropped from the full-resolution scenes as regions of interest, while the "resized" data have been resampled and center-cropped. The raw data (after registration) have also been included for completeness. The DSLR images are only approximately registered due to differences in focal length and they can be used for distribution-level quality metrics such as FID.
+The "images" data have been cropped from the full-resolution scenes as four regions of interest per scene for a total of 400 images. The "resized_scenes" data are the 100 scenes resampled and center-cropped. The raw data (after registration) have also been included for completeness. The DSLR images are only approximately registered due to differences in focal length and they can be used for distribution-level quality metrics such as FID.
 
 Each directory has predefined train/validation/test splits:
 - 200 train images from 50 scenes
