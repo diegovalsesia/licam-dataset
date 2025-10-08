@@ -21,6 +21,8 @@ Each directory has predefined train/validation/test splits:
 - 20 validation images from 5 scenes
 - 180 test images from 45 scenes
 
+The other directory contains the source code for the application used to acquire the images.
+
 ## Data download
 Links for data download are provided under each directory.
 
